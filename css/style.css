@@ -1,0 +1,74 @@
+ .car .col-lg-6 h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    line-height:60px;
+    color:darkcyan;
+    padding:20px auto;
+    margin: 20px auto;
+}
+.car .col-lg-6 img{
+    margin: 20px auto;
+    display: block;
+    
+}
+.car .col-lg-6 button{
+    margin: 70px auto;
+    display:block;
+}
+
+.car .col-lg-6 .right img{
+    height: 400px;
+    width: 565px;
+    margin: 0px;
+    margin-right:50px;
+    padding:10px;
+    /* padding-right:20px;      */
+    object-fit: fill;
+    margin: 60px auto;
+    display: block;
+    border:10px solid darkcyan;
+}
+
+
+.headline p{
+    /* font-family: 'Barlow Condensed', sans-serif; */
+    color:rgb(141, 141, 141);
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    padding:60px 70px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+.about .col-lg-6 img{
+    
+    height: 350px;
+    margin:80px auto;
+    display: block; 
+    
+}
+.about{
+        /* z-index: 500; */
+            
+        background:url("../images/BG1.jpg");
+        height: 500px;
+        background-size: cover;
+        
+        background-repeat: no-repeat;
+}
+.about .col-lg-6 p{
+
+    margin-top: 80px;
+    color:gray;
+    text-align: justify;
+    text-align-last: left;
+    padding:30px 100px 30px 10px;
+    line-height: 40px;
+    
+
+}
+.about .col-lg-6 button{
+    margin:auto;
+    display:block
+}
