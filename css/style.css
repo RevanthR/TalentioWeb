@@ -1,4 +1,4 @@
- .car .col-lg-6 h1{
+ .car .col-md-6 h1{
     font-family: 'Barlow Condensed', sans-serif;
     text-align: center;
     line-height:60px;
@@ -6,17 +6,17 @@
     padding:20px auto;
     margin: 20px auto;
 }
-.car .col-lg-6 img{
+.car .col-md-6 img{
     margin: 20px auto;
     display: block;
     
 }
-.car .col-lg-6 button{
+.car .col-md-6 button{
     margin: 70px auto;
     display:block;
 }
 
-.car .col-lg-6 .right img{
+.car .col-md-6 .right img{
     height: 400px;
     width: 565px;
     margin: 0px;
@@ -41,7 +41,7 @@
     letter-spacing: 1px;
     line-height: 40px;
 }
-.about .col-lg-6 img{
+.about .col-md-6 img{
     
     height: 350px;
     margin:80px auto;
@@ -57,7 +57,7 @@
         
         background-repeat: no-repeat;
 }
-.about .col-lg-6 p{
+.about .col-md-6 p{
 
     margin-top: 80px;
     color:gray;
@@ -68,7 +68,7 @@
     
 
 }
-.about .col-lg-6 button{
+.about .col-md-6 button{
     margin:auto;
     display:block;
     background-color: darkcyan;
@@ -78,7 +78,7 @@
     padding-top:40px;
     text-align: center;
 }
-.services .col-lg-4 img{
+.services .col-md-4 img{
     height:200px;
     width: 350px;
     padding:20px auto;
@@ -87,16 +87,16 @@
 .services .row{
     padding:80px 80px;
 }
-.services .col-lg-4{
+.services .col-md-4{
     padding:20px;
     
 }
-.services .col-lg-4 h1{
+.services .col-md-4 h1{
     text-align: left;
     padding-top:20px;
     font-size: 25px;
 }
-.services .col-lg-4 p{
+.services .col-md-4 p{
     margin-top:20px;
     color:gray;
     font-size:15px;
@@ -146,16 +146,16 @@
     
     
 }
-.testimonials .col-lg-6 img{
+.testimonials .col-md-6 img{
     height: 300px;
     border: 10px solid bisque;
     box-shadow:2px 2px 5px 0px gainsboro;
 }
-.testimonials .col-lg-6 h3{
+.testimonials .col-md-6 h3{
     font-size: 25px;
     padding: 1px 40px;
 }
-.testimonials .col-lg-6 p{
+.testimonials .col-md-6 p{
     padding:40px;
     line-height: 35px;
     padding-top:20px;
@@ -170,4 +170,67 @@
 }
 .carousel-indicators{
     filter: invert(100%);
+} 
+@media screen and (min-width: 480px) {
+    
+.about{
+    /* z-index: 500; */
+        
+    background:none;
+    height:auto;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
 }
+.about .col-md-6 p{
+
+    text-align: center;
+    padding:20px;
+    text-align-last: center;
+    /* color:pink; */
+}
+.testimonials h1{
+    text-align: center;
+    font-size:35px;
+}
+.testimonials .slide{
+    padding: 40px 30px;
+    
+}
+.testimonials .slide .carousel{
+    box-shadow: 3px 3px 30px 30px gainsboro;
+    padding:40px;
+}
+.testimonials .slide .carousel-control-prev span{
+    border:none;
+}
+
+.testimonials .slide .carousel-control-next span{
+    border:none;
+    
+    
+}
+.testimonials .col-md-6 img{
+    height: 200px;
+    border: 10px solid bisque;
+    box-shadow:2px 2px 5px 0px gainsboro;
+    margin:10px auto;
+    display: block;
+}
+.testimonials .col-md-6 h3{
+    font-size: 25px;
+    /* padding: 1px 40px; */
+}
+.testimonials .col-md-6 p{
+    padding:40px;
+    line-height: 35px;
+    padding-top:20px;
+    color:gray;
+    
+}
+.car .col-md-6 .right img
+{
+    height: 300px;
+    width:auto;
+}
+  }
