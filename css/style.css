@@ -70,5 +70,91 @@
 }
 .about .col-lg-6 button{
     margin:auto;
-    display:block
+    display:block;
+    background-color: darkcyan;
+}
+.services h1{
+    font-size:35px;
+    padding-top:40px;
+    text-align: center;
+}
+.services .col-lg-4 img{
+    height:200px;
+    width: 350px;
+    padding:20px auto;
+    display:block;
+}
+.services .row{
+    padding:80px 80px;
+}
+.services .col-lg-4{
+    padding:20px;
+    
+}
+.services .col-lg-4 h1{
+    text-align: left;
+    padding-top:20px;
+    font-size: 25px;
+}
+.services .col-lg-4 p{
+    margin-top:20px;
+    color:gray;
+    font-size:15px;
+    line-height: 30px;
+    text-align: justify;
+}
+.services a{
+    color:darkcyan;
+}
+.services a:hover{
+    text-decoration: none;
+    color:darkcyan;
+}
+
+.services .row button{
+    margin:40px auto;
+    display:block;
+    background-color: darkcyan;
+}
+.services span{
+    border-bottom: 5px solid darkcyan;
+    padding-bottom:5px;
+}
+
+.testimonials span{
+    border-bottom: 5px solid darkcyan;
+    padding-bottom:5px;
+}
+.testimonials h1{
+    text-align: center;
+    font-size:35px;
+}
+.testimonials .slide{
+    padding:50px 100px;
+    
+}
+.testimonials .slide .carousel{
+    box-shadow: 3px 3px 30px 30px gainsboro;
+    padding:140px;
+}
+.testimonials .slide .carousel-control-prev span{
+    border:none;
+}
+
+.testimonials .slide .carousel-control-next span{
+    border:none;
+    
+}
+.testimonials .col-lg-6 img{
+    height: 300px;
+}
+.carousel-control-next {
+    filter: invert(100%);
+}
+.carousel-control-prev {
+    filter: invert(100%);
+}
+.carousel-indicators{
+    filter: invert(100%);
+}
 }
