@@ -135,7 +135,7 @@
 }
 .testimonials .slide .carousel{
     box-shadow: 3px 3px 30px 30px gainsboro;
-    padding:140px;
+    padding:100px;
 }
 .testimonials .slide .carousel-control-prev span{
     border:none;
@@ -144,9 +144,23 @@
 .testimonials .slide .carousel-control-next span{
     border:none;
     
+    
 }
 .testimonials .col-lg-6 img{
     height: 300px;
+    border: 10px solid bisque;
+    box-shadow:2px 2px 5px 0px gainsboro;
+}
+.testimonials .col-lg-6 h3{
+    font-size: 25px;
+    padding: 1px 40px;
+}
+.testimonials .col-lg-6 p{
+    padding:40px;
+    line-height: 35px;
+    padding-top:20px;
+    color:gray;
+    
 }
 .carousel-control-next {
     filter: invert(100%);
@@ -156,5 +170,4 @@
 }
 .carousel-indicators{
     filter: invert(100%);
-}
 }
