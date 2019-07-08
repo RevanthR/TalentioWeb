@@ -207,12 +207,12 @@
     font-size:35px;
 }
 .testimonials .slide{
-    padding: 40px 30px;
+    padding: 40px 0px;
     
 }
 .testimonials .slide .carousel{
     /* box-shadow: 3px 3px 30px 30px gainsboro; */
-    padding:40px;
+    padding:40px 10px;
 }
 .testimonials .slide .carousel-control-prev span{
     border:none;
