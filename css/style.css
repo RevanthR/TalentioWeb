@@ -1,5 +1,6 @@
 .navbar-brand img{
     height:50px;
+    filter: invert(75%);
 }
 .car .col-md-6 h1{
     font-family: 'Barlow Condensed', sans-serif;
@@ -105,7 +106,7 @@
 }
 .services .col-md-4 p{
     margin-top:20px;
-    color:#0173c5;
+    color:gray;
     font-size:15px;
     line-height: 30px;
     text-align: justify;
