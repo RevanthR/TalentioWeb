@@ -1,4 +1,7 @@
- .car .col-md-6 h1{
+.navbar-brand img{
+    height:50px;
+}
+.car .col-md-6 h1{
     font-family: 'Barlow Condensed', sans-serif;
     text-align: center;
     line-height:60px;
@@ -7,7 +10,8 @@
     margin: 20px auto;
 }
 .car .col-md-6 img{
-    margin: 20px auto;
+    padding-top:60px;
+    margin: 50px auto;
     display: block;
     
 }
@@ -30,7 +34,7 @@
 }
 
 .headline{
-    background-color: #0173c5;
+    background-color: #0173c5 ;
 }
 .headline p{
     /* font-family: 'Barlow Condensed', sans-serif; */
